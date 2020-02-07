@@ -1,0 +1,16 @@
+{
+  "name": "cof",
+  "version": "1.0.0",
+  "main": "index.coffee",
+  "license": "MIT",
+  "scripts": {
+    "start": "coffee -w index.coffee"
+  },
+  "dependencies": {
+    "coffee-middleware": "^0.3.0",
+    "coffeescript": "^2.5.1",
+    "express": "^4.17.1",
+    "pug": "^2.0.4",
+    "stylus": "^0.54.7"
+  }
+}
