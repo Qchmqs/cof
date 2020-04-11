@@ -1,3 +1,4 @@
+#!/usr/bin/coffee
 require 'coffeescript/register'
 express = require 'express'
 stylus = require 'stylus'
@@ -10,6 +11,7 @@ app.use stylus.middleware {
     src: 'views',
     dest: 'public',
 }
+
 app.use coffee {
     src: 'views',
     dest: 'public'
