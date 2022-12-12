@@ -9,7 +9,7 @@
   "dependencies": {
     "coffee-middleware": "^0.3.0",
     "coffeescript": "^2.5.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "pug": "^2.0.4",
     "stylus": "^0.54.7"
   }
